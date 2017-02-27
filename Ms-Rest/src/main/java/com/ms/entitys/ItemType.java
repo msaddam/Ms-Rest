@@ -1,6 +1,6 @@
 package com.ms.entitys;
 
-public class IteamType {
+public class ItemType {
 
 	private int id;
 	private int groupId;
@@ -11,6 +11,7 @@ public class IteamType {
 	}
 	public void setId(int id) {
 		this.id = id;
+		System.out.println("Saddam");
 	}
 	public int getGroupId() {
 		return groupId;
@@ -41,7 +42,7 @@ public class IteamType {
 			return false;
 		if (getClass() != obj.getClass())
 			return false;
-		IteamType other = (IteamType) obj;
+		ItemType other = (ItemType) obj;
 		if (groupId != other.groupId)
 			return false;
 		if (id != other.id)
