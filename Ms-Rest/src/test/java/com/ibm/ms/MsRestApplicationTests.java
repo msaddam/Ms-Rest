@@ -11,6 +11,7 @@ public class MsRestApplicationTests {
 
 	@Test
 	public void contextLoads() {
+		System.out.println("saddam");
 	}
 
 }
