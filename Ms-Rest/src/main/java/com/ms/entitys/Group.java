@@ -6,7 +6,7 @@ import javax.persistence.Id;
 
 @Entity
 public class Group {
-	//Test
+	//Test   ss
 
 	@Id
 	private int id;
