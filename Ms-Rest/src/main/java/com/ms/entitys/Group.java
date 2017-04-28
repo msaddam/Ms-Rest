@@ -1,9 +1,15 @@
 package com.ms.entitys;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
 
+@Entity
 public class Group {
 
+	@Id
 	private int id;
+	@Column
 	private String category;
 	private String icon; 	// from fontawesome
 	private String bgColor; // from color picker
